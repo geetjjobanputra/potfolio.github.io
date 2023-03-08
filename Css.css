@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Varela+Round&display=swap');
+
+:root {
+    --primary-color: #2fcb23;
+    --off-white: #ffffff;
+}
+
+body {
+    background-image: url(pic.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/** container**/
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: rgb(20, 73, 119);
+    color: white;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    color: #881337;
+
+}
+
+hr {
+    margin: 2rem, 0rem;
+}
+
+/* list */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.navigation .link {
+    color: aliceblue;
+
+}
+
+.navigation .navigation .link {
+    color: azure;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: #E0F2F1;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: #90A4AE;
+}
+
+.section{
+    line-height: 18px;
+   
+    
+    
+}
+.section h3 {
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    
+  
+}
+
+.ow
+{
+    background-color: black;
+    background-color: var(black);
+    padding-block-end: 1rem;
+    
+    /* border-left: 1px solid white; */
+    /* box-shadow: 0 0 10px 5px; */
+  
+}
+
+.head
+{
+    background-color: black;
+    background-color: var(black);
+    padding-block-end: 1rem;
+}
+
+.para
+{
+    text-align: center;
+    transition: ease-in;
+    color: #ffffff;
+}
+
+
+
+/* footer
+
+.footer
+{
+    background-color: var(--primary-color);
+    padding: 2rem 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius:1rem ;
+    border-bottom-left-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.ow .work
+{
+    text-align: center;
+} */
+
+
+/* footer */
+
+.footer{
+    /* position: absolute; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    background-image: url(pic.jpg);
+    /* height: auto; */
+    text-align: center;
+    /* padding-bottom: 0; */
+    color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1rem;
+}
+.footer-content p{
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.facebook
+{
+  height: 25px;
+  width: 25px;
+  margin: 0.5rem;
+}
+
+/* .footer .h3
+{
+  font-family: myFirstfont;
+  src:url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Varela+Round&display=swap');
+  
+} */
+
+.footer .footer-content .fo {
+    font-weight: bold;
+    
+}
+
+
+
+
+
